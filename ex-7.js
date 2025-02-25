@@ -51,12 +51,14 @@ creditCardTypeOfBlindermann = orders[2].creditCardType;
 orders[2].creditCardType = "visa";
 productQuantityOfJoannet = orders[3].productQuantity;
 totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
-console.log(
-	isArray +
-		"\n" +
-		creditCardTypeOfBlindermann +
-		"\n" +
-		productQuantityOfJoannet +
-		"\n" +
-		totalPurchaseOfDary
-);
+// console.log(
+// 	isArray +
+// 		"\n" +
+// 		creditCardTypeOfBlindermann +
+// 		"\n" +
+// 		productQuantityOfJoannet +
+// 		"\n" +
+// 		totalPurchaseOfDary
+// );
+orders.shift();
+console.log("orders", orders);
