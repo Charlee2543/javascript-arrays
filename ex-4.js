@@ -12,3 +12,11 @@ const employees = [
 ];
 
 // Start coding here
+employees.name = "Alicia";
+employees.age = 29;
+employees.hobbies = ["Shopping", "Reading novels"];
+employees.name = "Kody";
+employees.age = 19;
+employees.hobbies = ["Computer games", "Wakeboard"]
+
+console.log(employees)
